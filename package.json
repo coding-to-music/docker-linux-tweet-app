@@ -1,0 +1,21 @@
+{
+  "name": "docker-linux-tweet-app",
+  "version": "1.0.0",
+  "description": "This is very simple NGINX website that allows a user to send a tweet.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git add . && git commit -m Build && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vegasbrianc/linux_tweet_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vegasbrianc/linux_tweet_app/issues"
+  },
+  "homepage": "https://github.com/vegasbrianc/linux_tweet_app#readme"
+}
